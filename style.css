@@ -1,0 +1,293 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  /* line-height: 1.5px; */
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.dark {
+  padding: 15px;
+  background-color: #35424a;
+  color: #ffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form_btn {
+  height: 38px;
+  background: chartreuse;
+  border: none;
+  border-radius: 5em;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* header */
+header {
+  background-color: #35424a;
+  color: chartreuse;
+  padding: 0px;
+  min-height: 70px;
+  border-bottom: chartreuse 3px solid;
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+}
+
+header a {
+  color: whitesmoke;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+header ul {
+  margin: 0;
+  padding: 0px 60px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 20px 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  text-shadow: none;
+}
+
+header nav #home:hover {
+  box-shadow: 0 12px 16px 0 rgba(248, 245, 245, 0.815),
+    0 17px 50px 0 rgba(241, 236, 236, 0.705);
+}
+
+header nav #about:hover {
+  box-shadow: 0 12px 16px 0 rgba(248, 245, 245, 0.815),
+    0 17px 50px 0 rgba(241, 236, 236, 0.705);
+}
+
+header nav #menu:hover {
+  box-shadow: 0 12px 16px 0 rgba(248, 245, 245, 0.815),
+    0 17px 50px 0 rgba(241, 236, 236, 0.705);
+}
+
+/* showcase section */
+#showcase {
+  background: url("../img/dinner.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  min-height: 400px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 115, 0);
+  font-size: 35px;
+  font-family: "Lobster", cursive;
+  margin: 0;
+  background-color: #e4f5e7;
+  border: 1px solid black;
+  opacity: 0.85;
+  /* padding-top: 20%; */
+}
+
+#showcase h4 {
+  margin-top: 30px;
+}
+/* newsletter area */
+#newsletter {
+  padding: 15px;
+  color: #ffff;
+  background-color: #35424a;
+  border-top: chartreuse 3px solid;
+  border-bottom: chartreuse 3px solid;
+}
+#newsletter h1 {
+  float: left;
+  font-family: "Economica", sans-serif;
+  font-size: 30px;
+  margin-top: 28px;
+}
+#newsletter form {
+  float: right;
+  margin-top: 20px;
+}
+#newsletter input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+  font-weight: bold;
+}
+
+/* boxes area */
+#boxes .box img {
+  width: 130px;
+  height: 130px;
+}
+
+#boxes {
+  margin: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Economica", sans-serif;
+}
+
+#boxes .box {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+.box-container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+}
+#boxes a {
+  color: rgb(255, 115, 0);
+  text-decoration: none;
+}
+#boxes h3 {
+  color: rgb(255, 115, 0);
+}
+/* sidebar */
+aside#sidebar {
+  float: right;
+  width: 35%;
+  margin-top: 10px;
+
+  font-family: "Economica", sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+aside h3 {
+  text-align: center;
+  color: rgb(255, 115, 0);
+}
+aside p {
+  color: rgb(255, 115, 0);
+  font-weight: bold;
+}
+/* main-col */
+article#main-col {
+  float: left;
+  width: 55%;
+  margin-top: 10px;
+  font-family: "Economica", sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+article h1 {
+  text-align: center;
+  color: rgb(255, 115, 0);
+}
+
+article p {
+  color: rgb(255, 115, 0);
+  font-weight: bold;
+}
+
+/* menu */
+#menu-main {
+  background: url("../img/menu.jpg") no-repeat;
+  background-size: cover;
+  margin: 0;
+  background-color: whitesmoke;
+  opacity: 0.85;
+  width: 100%;
+  height: 700px;
+  min-height: 400px;
+}
+
+#menu-main h1 {
+  text-align: center;
+  font-family: "Economica", sans-serif;
+  font-size: 35px;
+  color: rgb(255, 115, 0);
+  text-decoration: underline dashed rgb(255, 115, 0);
+}
+#menu-list h4 {
+  color: rgb(255, 115, 0);
+}
+#menu-list ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  color: #ffff;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  font-family: "Economica", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+#menu-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+
+  /* min-height: 400px; */
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: chartreuse;
+  color: black;
+  text-align: center;
+  font-style: italic;
+}
+
+/* media query */
+@media (max-width: 768px) {
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #newsletter .form_btn,
+  #boxes .box-container,
+  article#main-col aside#sidebar {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  header {
+    padding-bottom: 15px;
+  }
+  #showcase {
+    margin-top: 40px;
+  }
+  .form_btn {
+    margin-top: 10px;
+  }
+}
