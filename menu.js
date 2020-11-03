@@ -27,7 +27,7 @@ import { footer } from "./components/footer.js";
     menuContainer.classList.add('container');
     menuSection.appendChild(menuContainer);
     const menuImg = document.createElement("img");
-    // menuImg.src = ".../img/menu.png";
+    //  menuImg.src = "./img/menu.png";
     menuContainer.appendChild(menuImg);
     const menuArticle = document.createElement("article");
     menuArticle.setAttribute('id', 'main-col');
